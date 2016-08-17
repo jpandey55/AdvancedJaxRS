@@ -11,6 +11,7 @@ public class MyResource {
 	@GET
 	@Produces(MediaType.TEXT_PLAIN)
 	public String testMethod() {
+		System.out.println("Test1");
 		return "It works";
 	}
 }
